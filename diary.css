@@ -13,10 +13,10 @@ html {
 }
 
 body {
-  font-family: 'Space Mono', monospace;
+  font-family:cursive;
   line-height: 1.6;
-  background: rgba(175, 238, 238, 0.3);
-  color: lightcoral;
+  background:plum;
+  color:purple;
   margin: 0 auto;
   padding: 0;
   max-width: 900px;
@@ -50,9 +50,9 @@ button {
   font-size: 1.2rem;
   padding: 0.5em 1em;
   border: none;
-  background-color: aquamarine;
-  color: #0a2472;
-  font-family: 'Space Mono', monospace;
+  background-color: aliceblue;
+  color: #d84db0;
+  font-family: cursive;
 }
 
 /* Section Container Positions, Spacing, Utilities */
@@ -94,25 +94,25 @@ header {
 }
 
 .btn-main {
-  color: rgb(162, 75, 140);
-  background-color: lightcoral;
+  color:  #d84db0;
+  background-color: aliceblue;
 }
 
 .btn-light {
-  color: #0a2472;
+  color: #6f226f;
   background-color: white;
 }
 
 .btn-dark {
   color: white;
-  background-color: #0a2472;
+  background-color: rgb(211, 149, 189);
 }
 
 button[class^='btn-']:hover,
 a[class^='btn-']:hover,
 input[class^='btn-']:hover {
-  background-color: lightgoldenrodyellow;
-  color: lightcoral;
+  background-color: plum;
+  color:purple;
   font-weight: 700;
   transform: scale(1.08);
 }
@@ -130,25 +130,26 @@ input[class^='btn-']:hover {
   border-radius: 2px;
   border: unset;
   background-color: lightgoldenrodyellow;
-  font-family: 'Space Mono', monospace;
+  font-family: cursive;
 }
 
 .entry-text-title:focus {
-  outline-color: lightcoral;
-  font-family: 'Space Mono', monospace;
-  color: lightcoral;
+  outline-color: rgb(211, 149, 189);
+  font-family: cursive;
+  color: purple;
   font-size: 1rem;
 }
 
 .entry-text-title::placeholder {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
+  color: rgb(211, 149, 189);
+  
+  font-family: cursive;
   font-size: 1rem;
 }
 
 .entry-text-title::-ms-value {
-  color: lightcoral;
-  font-family: 'Space Mono', monospace;
+  color: purple;
+  font-family: cursive;
   font-size: 1rem;
 }
 
@@ -178,8 +179,8 @@ input[class^='btn-']:hover {
   padding: 1em;
   border-radius: 2px;
   border: unset;
-  background-color: lightgoldenrodyellow;
-  font-family: 'Space Mono', monospace;
+  background-color: plum;
+  font-family: cursive;
 }
 
 @media (min-width: 769px) {
@@ -190,7 +191,7 @@ input[class^='btn-']:hover {
     padding: 1em;
     border-radius: 2px;
     border: unset;
-    background-color: lightgoldenrodyellow;
+    background-color: plum;
     font-family: 'Space Mono', monospace;
   }
 }
